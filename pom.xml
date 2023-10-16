@@ -1,0 +1,136 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.example</groupId>
+  <artifactId>MyNewProject_Web</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>MyNewProject_Web</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <seleniumVersion>4.13.0</seleniumVersion>
+    <testNGVersion>7.8.0</testNGVersion>
+    <restassuredVersion>5.3.2</restassuredVersion>
+    <jacksonVersion>2.15.3</jacksonVersion>
+    <gsonVersion>2.10.1</gsonVersion>
+    <extentReportsVersion>2.3.6</extentReportsVersion>
+    <fakerVersion>1.0.2</fakerVersion>
+    <lombokVersion>1.18.30</lombokVersion>
+    <apacheCommonLangVersion>3.13.0</apacheCommonLangVersion>
+  </properties>
+
+  <dependencies>
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>${seleniumVersion}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>${testNGVersion}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+    <dependency>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>${restassuredVersion}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>${jacksonVersion}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <version>${gsonVersion}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.github.selcukes/selcukes-extent-reports -->
+    <dependency>
+      <groupId>io.github.selcukes</groupId>
+      <artifactId>selcukes-extent-reports</artifactId>
+      <version>${extentReportsVersion}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+    <dependency>
+      <groupId>com.github.javafaker</groupId>
+      <artifactId>javafaker</artifactId>
+      <version>${fakerVersion}</version>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>${lombokVersion}</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>${apacheCommonLangVersion}</version>
+    </dependency>
+
+
+
+
+<!--    <dependency>-->
+<!--      <groupId>io.rest-assured</groupId>-->
+<!--      <artifactId>json-path</artifactId>-->
+<!--      <version>5.3.2</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>io.rest-assured</groupId>-->
+<!--      <artifactId>json-schema-validator</artifactId>-->
+<!--      <version>5.3.2</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+
+<!--    <dependency>-->
+<!--      <groupId>io.rest-assured</groupId>-->
+<!--      <artifactId>xml-path</artifactId>-->
+<!--      <version>5.3.2</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+
+<!--    &lt;!&ndash; https://mvnrepository.com/artifact/com.github.scribejava/scribejava-apis &ndash;&gt;-->
+<!--    <dependency>-->
+<!--      <groupId>com.github.scribejava</groupId>-->
+<!--      <artifactId>scribejava-apis</artifactId>-->
+<!--      <version>8.3.3</version>-->
+<!--      <scope>runtime</scope>-->
+<!--    </dependency>-->
+
+
+
+<!--    <dependency>-->
+<!--      <groupId>junit</groupId>-->
+<!--      <artifactId>junit</artifactId>-->
+<!--      <version>4.13.1</version>-->
+<!--      <scope>test</scope>-->
+<!--    </dependency>-->
+  </dependencies>
+</project>
